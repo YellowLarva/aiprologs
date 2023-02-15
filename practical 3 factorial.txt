@@ -1,0 +1,2 @@
+fact(0,1).
+fact(X,R):- X > 0, Prev is X-1, fact(Prev,M1), R is M1*X.
