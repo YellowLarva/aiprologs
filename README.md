@@ -1,0 +1,3 @@
+# aiprologs
+
+AI practicals
