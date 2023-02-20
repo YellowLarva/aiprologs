@@ -1,0 +1,3 @@
+gcd(X,0,X).
+gcd(X,Y,R):- X > Y ,R1 is X mod Y, gcd(Y,R1,R).
+gcd(X,Y,R):- Y > X ,R1 is Y mod X, gcd(X,R1,R).
