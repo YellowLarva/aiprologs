@@ -1,0 +1,3 @@
+multiplus(X,0,R):- R is 0.
+multiplus(0,X,R):- R is 0.
+multiplus(X,Y,R):- Y > 0 ,Y1 is Y-1, multiplus(X,Y1,R1), R is X+R1.
