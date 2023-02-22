@@ -1,0 +1,2 @@
+numel([],0).
+numel([H|T],R):- numel(T,R1), R is R1+1.
