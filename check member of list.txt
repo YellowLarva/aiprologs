@@ -1,0 +1,2 @@
+membb([],0).
+membb([H|T],R):- R == H , write("Present "), abort;membb(T,R).

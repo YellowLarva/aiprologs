@@ -1,0 +1,4 @@
+mininlist([H],Y):- Y is H.
+mininlist([H|T],R):- mininlist(T,R1) , R1 < H , R is R1.
+mininlist([H|T],R):- mininlist(T,R1) , R1 > H , R is H.
+
