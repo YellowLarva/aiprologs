@@ -1,0 +1,4 @@
+indexofel([H|_],E,R):- H == E, write(R).
+indexofel([H|T],E,R):- H =\= E, R2 is R+1, indexofel(T,E,R2).
+
+where R is intially 1.
