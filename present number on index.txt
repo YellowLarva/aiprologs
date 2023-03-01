@@ -1,0 +1,2 @@
+nth([H|_],Y):- I is Y-1, I == 0, write("Element is "),write(H), abort.
+nth([_|T],Y):- I is Y-1, I =\= 0, nth(T,I).
