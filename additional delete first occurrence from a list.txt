@@ -1,0 +1,3 @@
+delete_first_occurrence(X,[X|T],T).
+delete_first_occurrence(I,[H|T],[H|R]):- delete_first_occurrence(I,T,R).
+
