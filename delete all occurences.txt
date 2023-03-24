@@ -1,4 +1,0 @@
-delete_all_occurrence(X,[X],[]).
-delete_all_occurrence(X,[],[]).
-delete_all_occurrence(X,[XL],R)- delete_all_occurrence(X,L,R).
-delete_all_occurrence(X,[YL],[YR])- delete_all_occurrence(X,L,R).
